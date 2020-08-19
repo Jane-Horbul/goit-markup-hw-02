@@ -15,7 +15,7 @@
 a {
   text-decoration: none;
 }
-.listTab {
+.list-tab {
   display: inline-flex;
 }
 .main-menu {
@@ -30,7 +30,7 @@ a {
 li.active a span {
   color: #2196f3;
 }
-.listTab li a span {
+.list-tab li a span {
   float: left;
   padding: 10px 18px;
   margin-right: 4px;
@@ -40,4 +40,21 @@ li.active a span {
 }
 h1 {
   font-size: 44px;
+}
+.address-box {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.sorter {
+  display: inline-flex;
+}
+.sorter li {
+  float: left;
+  padding: 10px 18px;
+  margin-right: 4px;
+  word-wrap: normal;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
