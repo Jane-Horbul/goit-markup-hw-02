@@ -15,14 +15,28 @@
 a {
   text-decoration: none;
 }
-
+.listTab {
+  display: inline-flex;
+}
 .main-menu {
   color: black;
   font-weight: 700;
   font-size: 14px;
 }
-.main-menu:hover {
+.main-menu:hover,
+.main-menu:focus {
   color: #2196f3;
+}
+li.active a span {
+  color: #2196f3;
+}
+.listTab li a span {
+  float: left;
+  padding: 10px 18px;
+  margin-right: 4px;
+  word-wrap: normal;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 h1 {
   font-size: 44px;
