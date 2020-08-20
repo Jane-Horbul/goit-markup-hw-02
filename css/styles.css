@@ -26,19 +26,32 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+/*footer*/
+footer {
+  display: block;
+  text-decoration: none;
+}
 footer {
   width: 1600px;
   height: 252px;
   background-color: var(--secondr-bg-color);
 }
 .address-text {
-  color: var(--white-color);
+ font-style: normal;
+ color: var(--white-color);
 }
+.address-text-link {
+  display: block;
+  font-style: normal;
+ color: var(--main-text-color);
+}
+.address-text {
+ font-style: normal;
+}
+/* style for text */
 li {
   list-style-type: none;
 }
-
-/* style for text */
 h1 {
   font-size: 44px;
   color: var(--white-color);
@@ -61,6 +74,7 @@ h4 {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   color: var(--logo-color);
+  font-style: normal;
 }
 .part-logo {
   font-family: "Raleway", sans-serif;
@@ -68,8 +82,10 @@ h4 {
   color: var(--assent-color);
 }
 a {
+  display: block;
   text-decoration: none;
 }
+
 .list-tab {
   display: inline-flex;
 }
